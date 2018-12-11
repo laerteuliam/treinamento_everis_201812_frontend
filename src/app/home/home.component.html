@@ -1,0 +1,14 @@
+<p>
+  Página com acesso restrito.
+</p>
+
+<table>
+  <thead>
+    <th>Título</th>
+    <th>Ano</th>
+  </thead>
+  <tr *ngFor="let filme of filmes">
+    <td>{{filme.titulo}}</td>
+    <td>{{filme.ano}}</td>
+  </tr>
+</table>
